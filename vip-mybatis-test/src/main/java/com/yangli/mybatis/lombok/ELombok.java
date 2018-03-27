@@ -7,6 +7,7 @@ import lombok.Setter;
  * Created by lies on 2018/3/26.
  */
 @Setter
+@Data
 public class ELombok {
 
     private String username;

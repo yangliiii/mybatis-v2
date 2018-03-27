@@ -1,0 +1,9 @@
+1、测试lombok插件（自动生成getter/setter/toString等方法）
+    a、首先在IDEA上安装插件，安装之后会提示重启IDEA
+    b、pom文件中添加jar依赖
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.18</version>
+        </dependency>
+    c、根据自身需要，添加相应的注解
