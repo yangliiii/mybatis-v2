@@ -23,13 +23,17 @@ public class TestIsDefaultMethod {
 //            System.out.println(methods[i].toString());
             Method method = methods[i];
             System.out.println(method);
-            System.out.println(Modifier.toString(method.getModifiers()));
+//            System.out.println(Modifier.toString(method.getModifiers()));
+            System.out.println(method.getModifiers());
 
             System.out.println("Modifier.ABSTRACT : " + Modifier.ABSTRACT); // 1024
             System.out.println("Modifier.PUBLIC : " + Modifier.PUBLIC);     // 1
             System.out.println("Modifier.STATIC : " + Modifier.STATIC);     // 8
 
             System.out.println(isDefaultMethod(method));
+
+            System.out.println(9 & (1024 | 1 | 8));
+            System.out.println(1024 | 1 | 8);
         }
     }
 }
