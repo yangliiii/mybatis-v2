@@ -9,6 +9,7 @@
         <module>vip-mybatis-generator</module>
         <module>vip-mybatis-test</module>
         <module>vip-mybatis</module>
+        <module>vip-mybatis-framwork</module>
     </modules>
     <packaging>pom</packaging>
 
